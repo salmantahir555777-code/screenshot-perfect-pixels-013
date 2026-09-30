@@ -8,6 +8,9 @@ import gardenInBloom from "@/assets/art-garden-in-bloom.jpg";
 import mughalShadows from "@/assets/art-mughal-shadows.jpg";
 import beyondHorizon from "@/assets/art-beyond-horizon.jpg";
 import sufiEvening from "@/assets/art-sufi-evening.jpg";
+import elderPortrait from "@/assets/art-elder-portrait.jpg";
+import tealDupatta from "@/assets/art-teal-dupatta.jpg";
+import craftsman from "@/assets/art-craftsman.jpg";
 
 export type Orientation = "portrait" | "landscape" | "square";
 
@@ -411,6 +414,78 @@ export const artworks: Artwork[] = [
     orientation: "portrait",
     description:
       "A quiet head study made in the artist's first year in Lahore, painted on salvaged board from a carpenter's shop in Anarkali.",
+  },
+  {
+    id: 21,
+    slug: "the-keeper",
+    title: "The Keeper",
+    artist: "Ayesha Malik",
+    artistSlug: "ayesha-malik",
+    category: "Portrait",
+    medium: "Oil on Canvas",
+    dimensions: "26 × 36 in",
+    size: "Medium",
+    price: 168000,
+    year: 2026,
+    availability: "Available",
+    image: elderPortrait,
+    orientation: "portrait",
+    description:
+      "An elder of the walled city, painted over eleven sittings in thin umber glazes. The wool shawl carries most of the painting; the face holds it still.",
+  },
+  {
+    id: 22,
+    slug: "teal-dupatta",
+    title: "Teal Dupatta",
+    artist: "Ayesha Malik",
+    artistSlug: "ayesha-malik",
+    category: "Portrait",
+    medium: "Oil on Canvas",
+    dimensions: "28 × 34 in",
+    size: "Medium",
+    price: 185000,
+    year: 2026,
+    availability: "Available",
+    image: tealDupatta,
+    orientation: "portrait",
+    description:
+      "The sitter turns her gaze just past the viewer, wrapped in a teal dupatta against a dark ground. Painted in slow glazes, the cloth worked wet-into-wet.",
+  },
+  {
+    id: 23,
+    slug: "the-carpenter",
+    title: "The Carpenter",
+    artist: "Hamza Qureshi",
+    artistSlug: "hamza-qureshi",
+    category: "Portrait",
+    medium: "Oil on Canvas",
+    dimensions: "30 × 38 in",
+    size: "Medium",
+    price: 215000,
+    year: 2025,
+    availability: "Available",
+    image: craftsman,
+    orientation: "portrait",
+    description:
+      "A Anarkali woodworker at his bench under a single lamp, shavings pooled around the chisel. Painted in the low-key light of the old Dutch workshop portraits.",
+  },
+  {
+    id: 24,
+    slug: "study-in-umber",
+    title: "Study in Umber",
+    artist: "Ali Raza",
+    artistSlug: "ali-raza",
+    category: "Portrait",
+    medium: "Oil on Board",
+    dimensions: "16 × 22 in",
+    size: "Small",
+    price: 58000,
+    year: 2025,
+    availability: "Available",
+    image: elderPortrait,
+    orientation: "portrait",
+    description:
+      "A single-sitting head study in two tones of umber, kept deliberately loose at the shoulders where the board still shows through.",
   },
 ];
 
