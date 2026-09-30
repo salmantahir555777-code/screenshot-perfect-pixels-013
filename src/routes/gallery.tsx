@@ -167,7 +167,7 @@ function FilterPanel({
   groups: {
     label: string;
     options: string[];
-    value?: string;
+    value: string | undefined;
     set: (v?: string) => void | Promise<void>;
   }[];
   onClear: () => void;
