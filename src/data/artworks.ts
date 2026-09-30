@@ -467,7 +467,7 @@ export const artworks: Artwork[] = [
     image: craftsman,
     orientation: "portrait",
     description:
-      "A Anarkali woodworker at his bench under a single lamp, shavings pooled around the chisel. Painted in the low-key light of the old Dutch workshop portraits.",
+      "An Anarkali woodworker at his bench under a single lamp, shavings pooled around the chisel. Painted in the low-key light of the old Dutch workshop portraits.",
   },
   {
     id: 24,
