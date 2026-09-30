@@ -12,11 +12,11 @@ import {
   SIZES,
 } from "@/data/artworks";
 
-type GallerySearch = { category?: string };
+type GallerySearch = { category?: string | undefined };
 
 export const Route = createFileRoute("/gallery")({
   validateSearch: (search: Record<string, unknown>): GallerySearch => ({
-    category: typeof search.category === "string" ? search.category : undefined,
+    category: typeof search["category"] === "string" ? search["category"] : undefined,
   }),
   head: () => ({
     meta: [
@@ -168,7 +168,7 @@ function FilterPanel({
     label: string;
     options: string[];
     value?: string;
-    set: (v?: string) => void;
+    set: (v?: string) => void | Promise<void>;
   }[];
   onClear: () => void;
 }) {

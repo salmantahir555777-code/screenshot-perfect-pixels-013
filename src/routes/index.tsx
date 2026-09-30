@@ -122,16 +122,16 @@ function Home() {
 
           <div className="mt-16 grid gap-6 lg:grid-cols-3">
             <Reveal className="lg:row-span-2">
-              <CollectionTile collection={collections[6]} tall />
+              <CollectionTile collection={collections[6]!} tall />
             </Reveal>
             <Reveal delay={100}>
-              <CollectionTile collection={collections[0]} />
+              <CollectionTile collection={collections[0]!} />
             </Reveal>
             <Reveal delay={200}>
-              <CollectionTile collection={collections[1]} />
+              <CollectionTile collection={collections[1]!} />
             </Reveal>
             <Reveal delay={150} className="lg:col-span-2">
-              <CollectionTile collection={collections[2]} wide />
+              <CollectionTile collection={collections[2]!} wide />
             </Reveal>
           </div>
         </div>
