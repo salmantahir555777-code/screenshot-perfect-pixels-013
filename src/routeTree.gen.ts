@@ -10,8 +10,15 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AboutRouteImport } from './routes/about'
+import { Route as AccountRouteImport } from './routes/account'
+import { Route as CheckoutRouteImport } from './routes/checkout'
 import { Route as CollectionsRouteImport } from './routes/collections'
+import { Route as CommissionRouteImport } from './routes/commission'
+import { Route as ContactRouteImport } from './routes/contact'
 import { Route as GalleryRouteImport } from './routes/gallery'
+import { Route as InformationRouteImport } from './routes/information'
+import { Route as WishlistRouteImport } from './routes/wishlist'
 import { Route as ArtistsIndexRouteImport } from './routes/artists.index'
 import { Route as ArtistsSlugRouteImport } from './routes/artists.$slug'
 import { Route as ArtworkSlugRouteImport } from './routes/artwork.$slug'
@@ -21,14 +28,49 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AboutRoute = AboutRouteImport.update({
+  id: '/about',
+  path: '/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AccountRoute = AccountRouteImport.update({
+  id: '/account',
+  path: '/account',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CheckoutRoute = CheckoutRouteImport.update({
+  id: '/checkout',
+  path: '/checkout',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const CollectionsRoute = CollectionsRouteImport.update({
   id: '/collections',
   path: '/collections',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CommissionRoute = CommissionRouteImport.update({
+  id: '/commission',
+  path: '/commission',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const GalleryRoute = GalleryRouteImport.update({
   id: '/gallery',
   path: '/gallery',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const InformationRoute = InformationRouteImport.update({
+  id: '/information',
+  path: '/information',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const WishlistRoute = WishlistRouteImport.update({
+  id: '/wishlist',
+  path: '/wishlist',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ArtistsIndexRoute = ArtistsIndexRouteImport.update({
@@ -49,16 +91,30 @@ const ArtworkSlugRoute = ArtworkSlugRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
+  '/account': typeof AccountRoute
+  '/checkout': typeof CheckoutRoute
   '/collections': typeof CollectionsRoute
+  '/commission': typeof CommissionRoute
+  '/contact': typeof ContactRoute
   '/gallery': typeof GalleryRoute
+  '/information': typeof InformationRoute
+  '/wishlist': typeof WishlistRoute
   '/artists/$slug': typeof ArtistsSlugRoute
   '/artwork/$slug': typeof ArtworkSlugRoute
   '/artists/': typeof ArtistsIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
+  '/account': typeof AccountRoute
+  '/checkout': typeof CheckoutRoute
   '/collections': typeof CollectionsRoute
+  '/commission': typeof CommissionRoute
+  '/contact': typeof ContactRoute
   '/gallery': typeof GalleryRoute
+  '/information': typeof InformationRoute
+  '/wishlist': typeof WishlistRoute
   '/artists/$slug': typeof ArtistsSlugRoute
   '/artwork/$slug': typeof ArtworkSlugRoute
   '/artists': typeof ArtistsIndexRoute
@@ -66,8 +122,15 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
+  '/account': typeof AccountRoute
+  '/checkout': typeof CheckoutRoute
   '/collections': typeof CollectionsRoute
+  '/commission': typeof CommissionRoute
+  '/contact': typeof ContactRoute
   '/gallery': typeof GalleryRoute
+  '/information': typeof InformationRoute
+  '/wishlist': typeof WishlistRoute
   '/artists/$slug': typeof ArtistsSlugRoute
   '/artwork/$slug': typeof ArtworkSlugRoute
   '/artists/': typeof ArtistsIndexRoute
@@ -76,24 +139,45 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/about'
+    | '/account'
+    | '/checkout'
     | '/collections'
+    | '/commission'
+    | '/contact'
     | '/gallery'
+    | '/information'
+    | '/wishlist'
     | '/artists/$slug'
     | '/artwork/$slug'
     | '/artists/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/about'
+    | '/account'
+    | '/checkout'
     | '/collections'
+    | '/commission'
+    | '/contact'
     | '/gallery'
+    | '/information'
+    | '/wishlist'
     | '/artists/$slug'
     | '/artwork/$slug'
     | '/artists'
   id:
     | '__root__'
     | '/'
+    | '/about'
+    | '/account'
+    | '/checkout'
     | '/collections'
+    | '/commission'
+    | '/contact'
     | '/gallery'
+    | '/information'
+    | '/wishlist'
     | '/artists/$slug'
     | '/artwork/$slug'
     | '/artists/'
@@ -101,8 +185,15 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AboutRoute: typeof AboutRoute
+  AccountRoute: typeof AccountRoute
+  CheckoutRoute: typeof CheckoutRoute
   CollectionsRoute: typeof CollectionsRoute
+  CommissionRoute: typeof CommissionRoute
+  ContactRoute: typeof ContactRoute
   GalleryRoute: typeof GalleryRoute
+  InformationRoute: typeof InformationRoute
+  WishlistRoute: typeof WishlistRoute
   ArtistsSlugRoute: typeof ArtistsSlugRoute
   ArtworkSlugRoute: typeof ArtworkSlugRoute
   ArtistsIndexRoute: typeof ArtistsIndexRoute
@@ -117,6 +208,27 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/about': {
+      id: '/about'
+      path: '/about'
+      fullPath: '/about'
+      preLoaderRoute: typeof AboutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/account': {
+      id: '/account'
+      path: '/account'
+      fullPath: '/account'
+      preLoaderRoute: typeof AccountRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/checkout': {
+      id: '/checkout'
+      path: '/checkout'
+      fullPath: '/checkout'
+      preLoaderRoute: typeof CheckoutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/collections': {
       id: '/collections'
       path: '/collections'
@@ -124,11 +236,39 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CollectionsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/commission': {
+      id: '/commission'
+      path: '/commission'
+      fullPath: '/commission'
+      preLoaderRoute: typeof CommissionRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/gallery': {
       id: '/gallery'
       path: '/gallery'
       fullPath: '/gallery'
       preLoaderRoute: typeof GalleryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/information': {
+      id: '/information'
+      path: '/information'
+      fullPath: '/information'
+      preLoaderRoute: typeof InformationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/wishlist': {
+      id: '/wishlist'
+      path: '/wishlist'
+      fullPath: '/wishlist'
+      preLoaderRoute: typeof WishlistRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/artists/': {
@@ -157,8 +297,15 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AboutRoute: AboutRoute,
+  AccountRoute: AccountRoute,
+  CheckoutRoute: CheckoutRoute,
   CollectionsRoute: CollectionsRoute,
+  CommissionRoute: CommissionRoute,
+  ContactRoute: ContactRoute,
   GalleryRoute: GalleryRoute,
+  InformationRoute: InformationRoute,
+  WishlistRoute: WishlistRoute,
   ArtistsSlugRoute: ArtistsSlugRoute,
   ArtworkSlugRoute: ArtworkSlugRoute,
   ArtistsIndexRoute: ArtistsIndexRoute,
