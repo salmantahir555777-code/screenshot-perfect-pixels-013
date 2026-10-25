@@ -19,6 +19,10 @@ import rosesInTerracotta from "@/assets/art-roses-in-terracotta.jpg";
 import jasmineVase from "@/assets/art-jasmine-vase.jpg";
 import anemonesInBlue from "@/assets/art-anemones-in-blue.jpg";
 import brassPitcher from "@/assets/art-brass-pitcher.jpg";
+import abstractOchre from "@/assets/art-abstract-ochre.jpg";
+import abstractIndigo from "@/assets/art-abstract-indigo.jpg";
+import abstractTerracotta from "@/assets/art-abstract-terracotta.jpg";
+import abstractIvory from "@/assets/art-abstract-ivory.jpg";
 
 export type Orientation = "portrait" | "landscape" | "square";
 
@@ -638,6 +642,78 @@ export const artworks: Artwork[] = [
     orientation: "portrait",
     description:
       "A brass water pitcher repurposed as a vase, with a few stems of pale chrysanthemum and dried seed pods. The most restrained of the group — an ordinary object held in soft afternoon light.",
+  },
+  {
+    id: 33,
+    slug: "horizon-in-ochre",
+    title: "Horizon in Ochre",
+    artist: "Sara Hussain",
+    artistSlug: "sara-hussain",
+    category: "Abstract",
+    medium: "Oil on Canvas",
+    dimensions: "36 × 44 in",
+    size: "Large",
+    price: 188000,
+    year: 2026,
+    availability: "Available",
+    image: abstractOchre,
+    orientation: "portrait",
+    description:
+      "Two fields of bone white and warm grey held apart by a single rust passage laid in with a palette knife. The painting is built from scraped-back layers, so the canvas weave still reads through the thinnest passages.",
+  },
+  {
+    id: 34,
+    slug: "nocturne-in-indigo",
+    title: "Nocturne in Indigo",
+    artist: "Sara Hussain",
+    artistSlug: "sara-hussain",
+    category: "Abstract",
+    medium: "Oil on Canvas",
+    dimensions: "38 × 48 in",
+    size: "Large",
+    price: 245000,
+    year: 2026,
+    availability: "Available",
+    image: abstractIndigo,
+    orientation: "portrait",
+    description:
+      "A deep indigo ground opened by one vertical seam of pale gold. The knife work is heaviest along that fracture, where the light is built up thick enough to cast its own shadow.",
+  },
+  {
+    id: 35,
+    slug: "terracotta-passages",
+    title: "Terracotta Passages",
+    artist: "Hamza Qureshi",
+    artistSlug: "hamza-qureshi",
+    category: "Abstract",
+    medium: "Oil on Canvas",
+    dimensions: "30 × 46 in",
+    size: "Large",
+    price: 205000,
+    year: 2026,
+    availability: "Available",
+    image: abstractTerracotta,
+    orientation: "landscape",
+    description:
+      "Overlapping planes of terracotta, ochre and parchment, painted with matte earth pigments on a dry ground. The geometry never closes: each passage stops short, leaving the composition open at the edges.",
+  },
+  {
+    id: 36,
+    slug: "still-point",
+    title: "Still Point",
+    artist: "Sara Hussain",
+    artistSlug: "sara-hussain",
+    category: "Abstract",
+    medium: "Oil on Canvas",
+    dimensions: "24 × 32 in",
+    size: "Medium",
+    price: 112000,
+    year: 2026,
+    availability: "Available",
+    image: abstractIvory,
+    orientation: "portrait",
+    description:
+      "Almost monochrome: warm ivory and dove grey washed in thin, luminous layers, weighted by one dark umber gesture low on the canvas. Painted slowly, over many weeks, until almost nothing remained.",
   },
 ];
 
