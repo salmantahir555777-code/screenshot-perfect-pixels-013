@@ -27,7 +27,9 @@ type GalleryState = {
   isWishlisted: (slug: string) => boolean;
 };
 
-const GalleryContext = createContext<GalleryState | null>(null);
+// Keep one context instance across hot reloads so Provider and consumers always match.
+const g = globalThis as unknown as { __lhrGalleryCtx?: React.Context<GalleryState | null> };
+const GalleryContext = (g.__lhrGalleryCtx ??= createContext<GalleryState | null>(null));
 
 const CART_KEY = "lhr-cart";
 const WISH_KEY = "lhr-wishlist";
