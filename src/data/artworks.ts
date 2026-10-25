@@ -11,6 +11,10 @@ import sufiEvening from "@/assets/art-sufi-evening.jpg";
 import elderPortrait from "@/assets/art-elder-portrait.jpg";
 import tealDupatta from "@/assets/art-teal-dupatta.jpg";
 import craftsman from "@/assets/art-craftsman.jpg";
+import indusDawn from "@/assets/art-indus-dawn.jpg";
+import monsoonTree from "@/assets/art-monsoon-tree.jpg";
+import shepherdBoy from "@/assets/art-shepherd-boy.jpg";
+import maroonShawl from "@/assets/art-maroon-shawl.jpg";
 
 export type Orientation = "portrait" | "landscape" | "square";
 
@@ -486,6 +490,78 @@ export const artworks: Artwork[] = [
     orientation: "portrait",
     description:
       "A single-sitting head study in two tones of umber, kept deliberately loose at the shoulders where the board still shows through.",
+  },
+  {
+    id: 25,
+    slug: "indus-dawn",
+    title: "Indus Dawn",
+    artist: "Ali Raza",
+    artistSlug: "ali-raza",
+    category: "Landscape",
+    medium: "Oil on Canvas",
+    dimensions: "30 × 42 in",
+    size: "Large",
+    price: 210000,
+    year: 2026,
+    availability: "Available",
+    image: indusDawn,
+    orientation: "landscape",
+    description:
+      "The Indus at first light, painted from a high bank above the river. Mist holds the far shore in silence while the water carries the sun's reflection in broken gold.",
+  },
+  {
+    id: 26,
+    slug: "before-the-rain",
+    title: "Before the Rain",
+    artist: "Sara Hussain",
+    artistSlug: "sara-hussain",
+    category: "Landscape",
+    medium: "Oil on Canvas",
+    dimensions: "32 × 40 in",
+    size: "Large",
+    price: 185000,
+    year: 2026,
+    availability: "Available",
+    image: monsoonTree,
+    orientation: "landscape",
+    description:
+      "A lone tree braced against the monsoon sky, the whole canvas laid in with heavy impasto. The light survives only as a thin ochre seam on the horizon.",
+  },
+  {
+    id: 27,
+    slug: "the-shepherd-boy",
+    title: "The Shepherd Boy",
+    artist: "Ali Raza",
+    artistSlug: "ali-raza",
+    category: "Portrait",
+    medium: "Oil on Canvas",
+    dimensions: "24 × 30 in",
+    size: "Medium",
+    price: 138000,
+    year: 2026,
+    availability: "Available",
+    image: shepherdBoy,
+    orientation: "portrait",
+    description:
+      "A young shepherd met on the road outside Kasur, painted in thin luminous glazes over a warm ground. The wool cap and shawl carry the painting's quiet warmth.",
+  },
+  {
+    id: 28,
+    slug: "the-maroon-shawl",
+    title: "The Maroon Shawl",
+    artist: "Ayesha Malik",
+    artistSlug: "ayesha-malik",
+    category: "Portrait",
+    medium: "Oil on Canvas",
+    dimensions: "30 × 40 in",
+    size: "Large",
+    price: 195000,
+    year: 2026,
+    availability: "Available",
+    image: maroonShawl,
+    orientation: "portrait",
+    description:
+      "A seated figure wrapped in deep maroon against a warm stone ground. The shawl was worked wet-into-wet over three sittings; the hands and face are held in softer light.",
   },
 ];
 
