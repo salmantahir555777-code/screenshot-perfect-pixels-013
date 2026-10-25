@@ -11,6 +11,10 @@ import sufiEvening from "@/assets/art-sufi-evening.jpg";
 import elderPortrait from "@/assets/art-elder-portrait.jpg";
 import tealDupatta from "@/assets/art-teal-dupatta.jpg";
 import craftsman from "@/assets/art-craftsman.jpg";
+import indusDawn from "@/assets/art-indus-dawn.jpg";
+import monsoonTree from "@/assets/art-monsoon-tree.jpg";
+import shepherdBoy from "@/assets/art-shepherd-boy.jpg";
+import maroonShawl from "@/assets/art-maroon-shawl.jpg";
 
 export type Orientation = "portrait" | "landscape" | "square";
 
