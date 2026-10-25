@@ -15,6 +15,10 @@ import indusDawn from "@/assets/art-indus-dawn.jpg";
 import monsoonTree from "@/assets/art-monsoon-tree.jpg";
 import shepherdBoy from "@/assets/art-shepherd-boy.jpg";
 import maroonShawl from "@/assets/art-maroon-shawl.jpg";
+import rosesInTerracotta from "@/assets/art-roses-in-terracotta.jpg";
+import jasmineVase from "@/assets/art-jasmine-vase.jpg";
+import anemonesInBlue from "@/assets/art-anemones-in-blue.jpg";
+import brassPitcher from "@/assets/art-brass-pitcher.jpg";
 
 export type Orientation = "portrait" | "landscape" | "square";
 
@@ -562,6 +566,78 @@ export const artworks: Artwork[] = [
     orientation: "portrait",
     description:
       "A seated figure wrapped in deep maroon against a warm stone ground. The shawl was worked wet-into-wet over three sittings; the hands and face are held in softer light.",
+  },
+  {
+    id: 29,
+    slug: "roses-in-terracotta",
+    title: "Roses in Terracotta",
+    artist: "Mariam Shah",
+    artistSlug: "mariam-shah",
+    category: "Still Life",
+    medium: "Oil on Canvas",
+    dimensions: "24 × 30 in",
+    size: "Medium",
+    price: 118000,
+    year: 2026,
+    availability: "Available",
+    image: rosesInTerracotta,
+    orientation: "portrait",
+    description:
+      "Cabbage roses in a hand-thrown terracotta vase, caught in a single raking window light. The petals are laid in thick and left unblended, so the surface keeps the memory of the brush.",
+  },
+  {
+    id: 30,
+    slug: "jasmine-in-white",
+    title: "Jasmine in White",
+    artist: "Mariam Shah",
+    artistSlug: "mariam-shah",
+    category: "Still Life",
+    medium: "Oil on Canvas",
+    dimensions: "28 × 36 in",
+    size: "Large",
+    price: 165000,
+    year: 2026,
+    availability: "Available",
+    image: jasmineVase,
+    orientation: "portrait",
+    description:
+      "A white porcelain jug holding jasmine and tuberose against a deep umber ground. The glaze of the jug and the folds of the linen were built up in thin luminous washes over several sittings.",
+  },
+  {
+    id: 31,
+    slug: "anemones-in-blue",
+    title: "Anemones in Blue",
+    artist: "Sara Hussain",
+    artistSlug: "sara-hussain",
+    category: "Still Life",
+    medium: "Oil on Canvas",
+    dimensions: "30 × 46 in",
+    size: "Oversized",
+    price: 235000,
+    year: 2026,
+    availability: "Available",
+    image: anemonesInBlue,
+    orientation: "landscape",
+    description:
+      "Crimson anemones spread across a blue-glazed bowl on a stone ledge. Painted in low, dramatic light, the canvas holds its contrast between the deep cobalt of the vessel and the warmth of the petals.",
+  },
+  {
+    id: 32,
+    slug: "brass-pitcher-and-chrysanthemums",
+    title: "Brass Pitcher and Chrysanthemums",
+    artist: "Mariam Shah",
+    artistSlug: "mariam-shah",
+    category: "Still Life",
+    medium: "Oil on Board",
+    dimensions: "20 × 26 in",
+    size: "Small",
+    price: 88000,
+    year: 2026,
+    availability: "Available",
+    image: brassPitcher,
+    orientation: "portrait",
+    description:
+      "A brass water pitcher repurposed as a vase, with a few stems of pale chrysanthemum and dried seed pods. The most restrained of the group — an ordinary object held in soft afternoon light.",
   },
 ];
 
