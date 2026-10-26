@@ -1,6 +1,10 @@
 import { artworks } from "./artworks";
-import portraitImage from "@/assets/art-silent-portrait.jpg";
-import studio from "@/assets/studio-commission.jpg";
+import ahmedKhanPortrait from "@/assets/artist-ahmed-khan.jpg";
+import ayeshaMalikPortrait from "@/assets/artist-ayesha-malik.jpg";
+import saraHussainPortrait from "@/assets/artist-sara-hussain.jpg";
+import aliRazaPortrait from "@/assets/artist-ali-raza.jpg";
+import hamzaQureshiPortrait from "@/assets/artist-hamza-qureshi.jpg";
+import mariamShahPortrait from "@/assets/artist-mariam-shah.jpg";
 
 export type Artist = {
   slug: string;
@@ -27,7 +31,7 @@ export const artists: Artist[] = [
       "Canvas Gallery, Karachi — 2022",
       "South Asian Modern, Dubai — 2021",
     ],
-    portrait: studio,
+    portrait: ahmedKhanPortrait,
   },
   {
     slug: "ayesha-malik",
@@ -37,7 +41,7 @@ export const artists: Artist[] = [
     bio: "Trained at the National College of Arts, Ayesha Malik paints sitters she knows well, often over many months. Her portraits are built in thin glazes and rarely meet the viewer's eye.",
     philosophy: "A portrait should keep something back. That is what makes it worth returning to.",
     exhibitions: ["Sanat Initiative, Karachi — 2025", "NCA Alumni Show, Lahore — 2023"],
-    portrait: portraitImage,
+    portrait: ayeshaMalikPortrait,
   },
   {
     slug: "sara-hussain",
@@ -47,7 +51,7 @@ export const artists: Artist[] = [
     bio: "Sara Hussain works in large planes of muted colour, building surfaces with a palette knife until the paint itself carries the image. Her recent work moves between abstraction and seascape.",
     philosophy: "I remove until only the feeling of the place is left.",
     exhibitions: ["Tanzara Gallery, Islamabad — 2026", "Koel Gallery, Karachi — 2024"],
-    portrait: studio,
+    portrait: saraHussainPortrait,
   },
   {
     slug: "ali-raza",
@@ -57,7 +61,7 @@ export const artists: Artist[] = [
     bio: "Ali Raza paints almost exclusively outdoors across rural Punjab, finishing most works in a single session. The unfinished edges of his boards are deliberate.",
     philosophy: "The field will not wait for you to be careful.",
     exhibitions: ["Ejaz Art Gallery, Lahore — 2025", "Punjab Landscape Survey — 2023"],
-    portrait: studio,
+    portrait: aliRazaPortrait,
   },
   {
     slug: "hamza-qureshi",
@@ -67,7 +71,7 @@ export const artists: Artist[] = [
     bio: "Hamza Qureshi studies Mughal architecture as a draughtsman before he paints it, then allows heat and shadow to dissolve the drawing underneath.",
     philosophy: "Measure first. Then forget the measurements.",
     exhibitions: ["Lahore Biennale Associated Programme — 2024", "Full Circle Gallery — 2022"],
-    portrait: studio,
+    portrait: hamzaQureshiPortrait,
   },
   {
     slug: "mariam-shah",
@@ -77,7 +81,7 @@ export const artists: Artist[] = [
     bio: "Mariam Shah works from a north-facing studio with a single window, painting copper, cloth and flowers in raking light. Her still lifes are small, slow and precisely observed.",
     philosophy: "Everything ordinary becomes serious under the right light.",
     exhibitions: ["O Art Space, Lahore — 2025", "Still Life Now, Islamabad — 2023"],
-    portrait: studio,
+    portrait: mariamShahPortrait,
   },
 ];
 
