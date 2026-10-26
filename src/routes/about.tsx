@@ -63,20 +63,6 @@ function About() {
               extra.
             </p>
           </div>
-          <dl className="mt-12 grid max-w-md grid-cols-3 gap-6 border-t border-border pt-8">
-            {[
-              { n: "2019", t: "Founded in Lahore" },
-              { n: "06", t: "Represented painters" },
-              { n: "36", t: "Original works shown" },
-            ].map((f) => (
-              <div key={f.t}>
-                <dt className="font-[family-name:var(--font-display)] text-2xl font-light">
-                  {f.n}
-                </dt>
-                <dd className="mt-2 label-xs text-muted-foreground">{f.t}</dd>
-              </div>
-            ))}
-          </dl>
         </Reveal>
 
         <div className="grid gap-10 sm:grid-cols-[1.15fr_0.85fr] sm:items-start">
