@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Reveal } from "@/components/Reveal";
+import { artists } from "@/data/artists";
 import studio from "@/assets/studio-commission.jpg";
 import lahoreAfterRain from "@/assets/art-lahore-after-rain.jpg";
 
@@ -54,6 +55,47 @@ function About() {
             className="h-full w-full object-cover"
           />
         </Reveal>
+      </section>
+
+      <section className="border-t border-border py-24 md:py-32">
+        <div className="gallery-container">
+          <Reveal>
+            <p className="label-xs text-muted-foreground">The painters</p>
+            <h2 className="display-md mt-4">The artists behind the work</h2>
+          </Reveal>
+          <div className="mt-14 grid grid-cols-2 gap-8 sm:grid-cols-3 lg:grid-cols-6">
+            {artists.map((artist, i) => (
+              <Reveal key={artist.slug} delay={(i % 6) * 70}>
+                <Link
+                  to="/artists/$slug"
+                  params={{ slug: artist.slug }}
+                  className="group block"
+                >
+                  <div className="art-frame aspect-[4/5]">
+                    <img
+                      src={artist.portrait}
+                      alt={artist.name}
+                      loading="lazy"
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                  <h3 className="mt-4 text-sm">{artist.name}</h3>
+                  <p className="mt-1 label-xs text-muted-foreground">
+                    {artist.location.split(",")[0]}
+                  </p>
+                </Link>
+              </Reveal>
+            ))}
+          </div>
+          <Reveal delay={150}>
+            <Link
+              to="/artists"
+              className="mt-12 inline-flex label-xs link-underline text-foreground"
+            >
+              Meet the artists
+            </Link>
+          </Reveal>
+        </div>
       </section>
 
       <section className="border-t border-border py-24 md:py-32">
