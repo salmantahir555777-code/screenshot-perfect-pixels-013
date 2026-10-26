@@ -1,6 +1,10 @@
 import { artworks } from "./artworks";
-import portraitImage from "@/assets/art-silent-portrait.jpg";
-import studio from "@/assets/studio-commission.jpg";
+import ahmedKhanPortrait from "@/assets/artist-ahmed-khan.jpg";
+import ayeshaMalikPortrait from "@/assets/artist-ayesha-malik.jpg";
+import saraHussainPortrait from "@/assets/artist-sara-hussain.jpg";
+import aliRazaPortrait from "@/assets/artist-ali-raza.jpg";
+import hamzaQureshiPortrait from "@/assets/artist-hamza-qureshi.jpg";
+import mariamShahPortrait from "@/assets/artist-mariam-shah.jpg";
 
 export type Artist = {
   slug: string;
