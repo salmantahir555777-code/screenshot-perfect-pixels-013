@@ -31,6 +31,9 @@ import indusVillage from "@/assets/art-indus-village.jpg";
 import gardenMorning from "@/assets/art-garden-morning.jpg";
 import gardenIris from "@/assets/art-garden-iris.jpg";
 import gardenHibiscus from "@/assets/art-garden-hibiscus.jpg";
+import autumnRoses from "@/assets/art-autumn-roses.jpg";
+import autumnMums from "@/assets/art-autumn-mums.jpg";
+import autumnPath from "@/assets/art-autumn-path.jpg";
 
 export type Orientation = "portrait" | "landscape" | "square";
 
@@ -848,6 +851,60 @@ export const artworks: Artwork[] = [
     orientation: "portrait",
     description:
       "Scarlet hibiscus against deep shade, late sun catching the petals from the side. A close study of heat, colour and stillness.",
+  },
+  {
+    id: 44,
+    slug: "late-roses",
+    title: "Late Roses",
+    artist: "Ayesha Malik",
+    artistSlug: "ayesha-malik",
+    category: "Floral",
+    medium: "Oil on Canvas",
+    dimensions: "22 × 30 in",
+    size: "Medium",
+    price: 125000,
+    year: 2026,
+    availability: "Available",
+    image: autumnRoses,
+    orientation: "portrait",
+    description:
+      "The last climbing roses of the season, petals curled and browning at the edges, standing on rough wooden stakes above wet stone. Painted on a grey morning when the rain had only just stopped.",
+  },
+  {
+    id: 45,
+    slug: "chrysanthemum-season",
+    title: "Chrysanthemum Season",
+    artist: "Mariam Shah",
+    artistSlug: "mariam-shah",
+    category: "Floral",
+    medium: "Oil on Board",
+    dimensions: "18 × 24 in",
+    size: "Medium",
+    price: 98000,
+    year: 2026,
+    availability: "Available",
+    image: autumnMums,
+    orientation: "portrait",
+    description:
+      "Chrysanthemums at full weight in low golden light — amber and burnt-orange heads, unopened buds, leaves already browning at the edges. A close, sunlit study of the week before winter.",
+  },
+  {
+    id: 46,
+    slug: "october-path",
+    title: "October Path",
+    artist: "Sara Hussain",
+    artistSlug: "sara-hussain",
+    category: "Floral",
+    medium: "Oil on Canvas",
+    dimensions: "24 × 36 in",
+    size: "Large",
+    price: 165000,
+    year: 2026,
+    availability: "Available",
+    image: autumnPath,
+    orientation: "portrait",
+    description:
+      "A garden path at the end of the year: pale asters and dried seed heads along the edge, fallen leaves across the flagstones, the last of the evening sun coming through bare branches.",
   },
 ];
 
