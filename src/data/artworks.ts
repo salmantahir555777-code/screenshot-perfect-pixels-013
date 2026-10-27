@@ -28,6 +28,9 @@ import mughalCourt from "@/assets/art-mughal-court.jpg";
 import bazaarMorning from "@/assets/art-bazaar-morning.jpg";
 import basantRooftops from "@/assets/art-basant-rooftops.jpg";
 import indusVillage from "@/assets/art-indus-village.jpg";
+import gardenMorning from "@/assets/art-garden-morning.jpg";
+import gardenIris from "@/assets/art-garden-iris.jpg";
+import gardenHibiscus from "@/assets/art-garden-hibiscus.jpg";
 
 export type Orientation = "portrait" | "landscape" | "square";
 
