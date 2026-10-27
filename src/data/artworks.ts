@@ -192,7 +192,7 @@ export const artworks: Artwork[] = [
     price: 78000,
     year: 2025,
     availability: "Available",
-    image: gardenInBloom,
+    image: gardenBlossoms,
     orientation: "portrait",
     description:
       "Roses loosened almost to abstraction against a grey-green ground. Painted alla prima in a single afternoon while the flowers were still opening.",
@@ -390,7 +390,7 @@ export const artworks: Artwork[] = [
     price: 88000,
     year: 2025,
     availability: "Available",
-    image: gardenInBloom,
+    image: autumnGarden,
     orientation: "portrait",
     description:
       "Late blooms past their peak, painted with affection for the moment just before the petals fall.",

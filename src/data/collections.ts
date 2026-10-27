@@ -4,7 +4,7 @@ import abstractQuiet from "@/assets/art-abstract-quiet.jpg";
 import punjabFields from "@/assets/art-punjab-fields.jpg";
 import crimsonStillLife from "@/assets/art-crimson-still-life.jpg";
 import lahoreAfterRain from "@/assets/art-lahore-after-rain.jpg";
-import gardenInBloom from "@/assets/art-garden-in-bloom.jpg";
+import gardenBlossoms from "@/assets/art-garden-blossoms.jpg";
 import mughalShadows from "@/assets/art-mughal-shadows.jpg";
 
 export type Collection = {
@@ -49,7 +49,7 @@ export const collections: Collection[] = [
     name: "Traditional",
     category: "Floral",
     blurb: "The enduring subjects, freshly painted.",
-    image: gardenInBloom,
+    image: gardenBlossoms,
   },
   {
     name: "Pakistani Art",
