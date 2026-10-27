@@ -28,6 +28,12 @@ import mughalCourt from "@/assets/art-mughal-court.jpg";
 import bazaarMorning from "@/assets/art-bazaar-morning.jpg";
 import basantRooftops from "@/assets/art-basant-rooftops.jpg";
 import indusVillage from "@/assets/art-indus-village.jpg";
+import gardenMorning from "@/assets/art-garden-morning.jpg";
+import gardenIris from "@/assets/art-garden-iris.jpg";
+import gardenHibiscus from "@/assets/art-garden-hibiscus.jpg";
+import autumnRoses from "@/assets/art-autumn-roses.jpg";
+import autumnMums from "@/assets/art-autumn-mums.jpg";
+import autumnPath from "@/assets/art-autumn-path.jpg";
 
 export type Orientation = "portrait" | "landscape" | "square";
 
@@ -791,6 +797,114 @@ export const artworks: Artwork[] = [
     orientation: "square",
     description:
       "A riverside village at dusk: mud-brick houses, women carrying water pots, a moored boat among the reeds, and the sun going down in a band of gold across the river.",
+  },
+  {
+    id: 41,
+    slug: "the-rose-wall",
+    title: "The Rose Wall",
+    artist: "Mariam Shah",
+    artistSlug: "mariam-shah",
+    category: "Floral",
+    medium: "Oil on Canvas",
+    dimensions: "24 × 36 in",
+    size: "Large",
+    price: 148000,
+    year: 2026,
+    availability: "Available",
+    image: gardenMorning,
+    orientation: "portrait",
+    description:
+      "Climbing roses in full bloom along a weathered garden wall, the path beyond softening into morning mist. Painted outdoors over four consecutive dawns as the light kept changing.",
+  },
+  {
+    id: 42,
+    slug: "irises-in-april",
+    title: "Irises in April",
+    artist: "Sara Hussain",
+    artistSlug: "sara-hussain",
+    category: "Floral",
+    medium: "Oil on Canvas",
+    dimensions: "20 × 30 in",
+    size: "Medium",
+    price: 132000,
+    year: 2026,
+    availability: "Available",
+    image: gardenIris,
+    orientation: "portrait",
+    description:
+      "A bed of bearded irises at peak: violet and white petals, gold beards, spent blooms already folding back into the leaves. Painted in a single sitting before the wind came up.",
+  },
+  {
+    id: 43,
+    slug: "hibiscus-in-afternoon-light",
+    title: "Hibiscus in Afternoon Light",
+    artist: "Mariam Shah",
+    artistSlug: "mariam-shah",
+    category: "Floral",
+    medium: "Oil on Board",
+    dimensions: "16 × 20 in",
+    size: "Small",
+    price: 92000,
+    year: 2026,
+    availability: "Available",
+    image: gardenHibiscus,
+    orientation: "portrait",
+    description:
+      "Scarlet hibiscus against deep shade, late sun catching the petals from the side. A close study of heat, colour and stillness.",
+  },
+  {
+    id: 44,
+    slug: "late-roses",
+    title: "Late Roses",
+    artist: "Ayesha Malik",
+    artistSlug: "ayesha-malik",
+    category: "Floral",
+    medium: "Oil on Canvas",
+    dimensions: "22 × 30 in",
+    size: "Medium",
+    price: 125000,
+    year: 2026,
+    availability: "Available",
+    image: autumnRoses,
+    orientation: "portrait",
+    description:
+      "The last climbing roses of the season, petals curled and browning at the edges, standing on rough wooden stakes above wet stone. Painted on a grey morning when the rain had only just stopped.",
+  },
+  {
+    id: 45,
+    slug: "chrysanthemum-season",
+    title: "Chrysanthemum Season",
+    artist: "Mariam Shah",
+    artistSlug: "mariam-shah",
+    category: "Floral",
+    medium: "Oil on Board",
+    dimensions: "18 × 24 in",
+    size: "Medium",
+    price: 98000,
+    year: 2026,
+    availability: "Available",
+    image: autumnMums,
+    orientation: "portrait",
+    description:
+      "Chrysanthemums at full weight in low golden light — amber and burnt-orange heads, unopened buds, leaves already browning at the edges. A close, sunlit study of the week before winter.",
+  },
+  {
+    id: 46,
+    slug: "october-path",
+    title: "October Path",
+    artist: "Sara Hussain",
+    artistSlug: "sara-hussain",
+    category: "Floral",
+    medium: "Oil on Canvas",
+    dimensions: "24 × 36 in",
+    size: "Large",
+    price: 165000,
+    year: 2026,
+    availability: "Available",
+    image: autumnPath,
+    orientation: "portrait",
+    description:
+      "A garden path at the end of the year: pale asters and dried seed heads along the edge, fallen leaves across the flagstones, the last of the evening sun coming through bare branches.",
   },
 ];
 
