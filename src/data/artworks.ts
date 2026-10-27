@@ -4,7 +4,8 @@ import abstractQuiet from "@/assets/art-abstract-quiet.jpg";
 import punjabFields from "@/assets/art-punjab-fields.jpg";
 import crimsonStillLife from "@/assets/art-crimson-still-life.jpg";
 import lahoreAfterRain from "@/assets/art-lahore-after-rain.jpg";
-import gardenInBloom from "@/assets/art-garden-in-bloom.jpg";
+import gardenBlossoms from "@/assets/art-garden-blossoms.jpg";
+import autumnGarden from "@/assets/art-autumn-garden.jpg";
 import mughalShadows from "@/assets/art-mughal-shadows.jpg";
 import beyondHorizon from "@/assets/art-beyond-horizon.jpg";
 import sufiEvening from "@/assets/art-sufi-evening.jpg";
@@ -192,7 +193,7 @@ export const artworks: Artwork[] = [
     price: 78000,
     year: 2025,
     availability: "Available",
-    image: gardenInBloom,
+    image: gardenBlossoms,
     orientation: "portrait",
     description:
       "Roses loosened almost to abstraction against a grey-green ground. Painted alla prima in a single afternoon while the flowers were still opening.",
@@ -390,7 +391,7 @@ export const artworks: Artwork[] = [
     price: 88000,
     year: 2025,
     availability: "Available",
-    image: gardenInBloom,
+    image: autumnGarden,
     orientation: "portrait",
     description:
       "Late blooms past their peak, painted with affection for the moment just before the petals fall.",
