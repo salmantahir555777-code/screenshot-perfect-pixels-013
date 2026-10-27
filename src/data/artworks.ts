@@ -23,6 +23,10 @@ import abstractOchre from "@/assets/art-abstract-ochre.jpg";
 import abstractIndigo from "@/assets/art-abstract-indigo.jpg";
 import abstractTerracotta from "@/assets/art-abstract-terracotta.jpg";
 import abstractIvory from "@/assets/art-abstract-ivory.jpg";
+import mughalCourt from "@/assets/art-mughal-court.jpg";
+import bazaarMorning from "@/assets/art-bazaar-morning.jpg";
+import basantRooftops from "@/assets/art-basant-rooftops.jpg";
+import indusVillage from "@/assets/art-indus-village.jpg";
 
 export type Orientation = "portrait" | "landscape" | "square";
 
