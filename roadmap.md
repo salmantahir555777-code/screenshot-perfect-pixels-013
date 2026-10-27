@@ -8,7 +8,7 @@
 
 ## Done
 - Added three blooming-garden paintings: The Rose Wall, Irises in April, Hibiscus in Afternoon Light (Floral).
-- Adding three autumn-garden paintings to sit beside Autumn Garden.
+- Added three autumn-garden paintings: Late Roses, Chrysanthemum Season, October Path (Floral).
 - Garden in Bloom and Autumn Garden each given their own distinct painting.
 - About page reorganized: studio and Lahore-after-rain images removed, richer story text, two captioned paintings, three-step process; stats row removed.
 - Six painter portraits generated and wired into Artists and About.
