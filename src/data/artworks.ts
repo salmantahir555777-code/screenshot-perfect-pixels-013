@@ -23,6 +23,10 @@ import abstractOchre from "@/assets/art-abstract-ochre.jpg";
 import abstractIndigo from "@/assets/art-abstract-indigo.jpg";
 import abstractTerracotta from "@/assets/art-abstract-terracotta.jpg";
 import abstractIvory from "@/assets/art-abstract-ivory.jpg";
+import mughalCourt from "@/assets/art-mughal-court.jpg";
+import bazaarMorning from "@/assets/art-bazaar-morning.jpg";
+import basantRooftops from "@/assets/art-basant-rooftops.jpg";
+import indusVillage from "@/assets/art-indus-village.jpg";
 
 export type Orientation = "portrait" | "landscape" | "square";
 
@@ -714,6 +718,78 @@ export const artworks: Artwork[] = [
     orientation: "portrait",
     description:
       "Almost monochrome: warm ivory and dove grey washed in thin, luminous layers, weighted by one dark umber gesture low on the canvas. Painted slowly, over many weeks, until almost nothing remained.",
+  },
+  {
+    id: 37,
+    slug: "court-of-jahangir",
+    title: "Court of Jahangir",
+    artist: "Hamza Qureshi",
+    artistSlug: "hamza-qureshi",
+    category: "Classical",
+    medium: "Oil on Canvas",
+    dimensions: "40 × 52 in",
+    size: "Large",
+    price: 465000,
+    year: 2026,
+    availability: "Available",
+    image: mughalCourt,
+    orientation: "square",
+    description:
+      "Two nobles in conversation on a marble terrace above a charbagh garden. Painted in the manner of the Mughal court ateliers, with jewel-toned robes, inlaid architecture and a distant fort set against a cypress-lined sky.",
+  },
+  {
+    id: 38,
+    slug: "anarkali-morning",
+    title: "Anarkali Morning",
+    artist: "Ahmed Khan",
+    artistSlug: "ahmed-khan",
+    category: "Pakistani Art",
+    medium: "Oil on Canvas",
+    dimensions: "28 × 28 in",
+    size: "Medium",
+    price: 245000,
+    year: 2025,
+    availability: "Available",
+    image: bazaarMorning,
+    orientation: "square",
+    description:
+      "The old bazaar before the heat: brass lamps, hanging cloth and a horse cart between wooden balconies, with the minarets of the walled city dissolving into morning haze.",
+  },
+  {
+    id: 39,
+    slug: "basant",
+    title: "Basant",
+    artist: "Ahmed Khan",
+    artistSlug: "ahmed-khan",
+    category: "Pakistani Art",
+    medium: "Oil on Canvas",
+    dimensions: "32 × 32 in",
+    size: "Large",
+    price: 268000,
+    year: 2026,
+    availability: "Available",
+    image: basantRooftops,
+    orientation: "square",
+    description:
+      "Rooftops of the old city on the festival morning, kites in every colour rising over the domes, and mustard blossom in the foreground. A painting of Lahore at its most joyful.",
+  },
+  {
+    id: 40,
+    slug: "evening-on-the-indus",
+    title: "Evening on the Indus",
+    artist: "Ali Raza",
+    artistSlug: "ali-raza",
+    category: "Pakistani Art",
+    medium: "Oil on Canvas",
+    dimensions: "36 × 36 in",
+    size: "Large",
+    price: 315000,
+    year: 2026,
+    availability: "Available",
+    image: indusVillage,
+    orientation: "square",
+    description:
+      "A riverside village at dusk: mud-brick houses, women carrying water pots, a moored boat among the reeds, and the sun going down in a band of gold across the river.",
   },
 ];
 
